@@ -16,8 +16,8 @@ var lines = 0;
 *   Basic Commands
 ************************/
 var inBet = "<br>&nbsp;&nbsp;&nbsp; -- &nbsp;";
-var helpTitle = "---------------------- <br> Basic Commands <br> ---------------------- <br>";
-var badResp = "<br> Um. Yea. I'm going to need you to type 'help' <br>";
+var helpTitle = "---------------------- <br> Comandos Basicos <br> ---------------------- <br>";
+var badResp = "<br> no se reconoce como un comando interno o externo <br>";
 
 
 // basic commands array
@@ -26,47 +26,47 @@ var bc = [
 // 0
 {title:"help",
            termResp:" N/A ",
-           helpResp:"This Text"
+           helpResp:"Otro Texto"
          },
 //1
 {title:"thetime",
            termResp: Date() ,
-           helpResp:"Displays the Date and Time"
+           helpResp:"Muestra la Hora y fecha"
          },
 //2
 {title:"about",
-           termResp:" Just a Terminal, written by a coder ",
-           helpResp:"About this terminal"
+           termResp:" WoH Terminal 2021 ",
+           helpResp:"Acerca de..."
          },
 //3
 {title:"contact",
-           termResp:"Want to contact me for some reason? occultdigital@gmail.com ",
-           helpResp:"y contact info"
+           termResp:"Escribeme un correo a: WoH@gmail.com ",
+           helpResp:"Informacion de contaco"
          },
 //4
 {title:"edition",
            termResp:"Version 0.2 ",
-           helpResp:"The terminal's Version"
+           helpResp:"La version del terminal"
          },
 //5
 {title:"future",
-           termResp:"Unclear atm ",
-           helpResp:"What to expect"
+           termResp:"EL Futuro es incierto ",
+           helpResp:"Que es lo que esperas"
          },
 //6
 {title:"sauce",
-           termResp:"I want that Mulan McNugget sauce, Morty! That's my series arc, Morty! If it takes nine seasons, I want my McNugget... dipping sauce Szechuan sauce, Morty! ",
-           helpResp:"Dry Nuggets"
+           termResp:"Aqui va cualquier cosa ",
+           helpResp:"Come paparuchis"
          },
 //7
 {title:"slurms",
-           termResp:"Whimmy Wham Wham Wozzel",
-           helpResp:"The Original Party Worm!"
+           termResp:"Wat of Hackers 2021",
+           helpResp:"Otra respuesta mas"
          },
 //8
 {title:"clear",
-           termResp:"N/a ",
-           helpResp:"Clears the screen"
+           termResp:"N/A",
+           helpResp:"Limpia la pantalla"
           }
 ]; // end of basic commands array
 
@@ -89,7 +89,7 @@ var bc = [
       if(keyCode == 13)
       {
       var passcmd = document.getElementById("termInput").value;
-      $("ol").append("zTerminal@localhost:~ ", passcmd);
+      $("ol").append("WoHTerminal@localhost:~ ", passcmd);
 
             if(passcmd == bc[0].title){
               lines = lines + 9;
