@@ -1,90 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!-- saved from url=(0047)https://www.text-image.com/convert/pic2html.cgi -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery zTerminal Plugin Demo</title>
 
+<link rel="stylesheet" type="text/css" href="https://www.jqueryscript.net/demo/Customizable-Terminal-Simulator-jQuery-zTerminal/css/termStyle.css">
 
-<title>INFOGRATECH</title>
-
-<style type="text/css">
-
-	body {
-	
-		background-color: black;
-	}
-</style>
 
 </head>
 
 <body>
+  <div id="terminal" onclick="document.getElementById('termInput').focus(); return false;">
 
-<center>
-
-
-<table width="80%">
-	<tbody><tr>
-		<td>
-		<h2>Result</h2>
-		<p>
-<table align="center" cellpadding="10">
-<tbody><tr bgcolor="black"><td>
-
-<!-- IMAGE BEGINS HERE -->
-<font color="green">
-<pre>```````...../oo+/:/--....`````````````````````````````:``````````````````````````````````````````````````````````````     `     ``.``````   `         
-```````......:.-/:o//o+++:````````````````````````````:``````````````````````````````````````````````````````````````             ```````             
-.``````............-::.:./````````````````````````````:```..`````.:+osssssssssoo+/-``````````````````````````````````  `..`        ``````   `         
-.``..```..................`.......``..........`.......:.``-.`-+sso/--.........--::+sso:.```````````...`````````.`````    ```       `--```             
-```````.............................................-.:...:oyo:-..-:-..```      `....-/ss/......--......````..---.---...` `    ``  ``````   `      `` 
-```.```..-.......................................--.-.oo/ss:`.-/+/-                  .--./yo.````` `..`......-----.---::///:.      .`````             
-````.``..........................................-:.-.shs- ./yo.                        -:./h+``   ````..--------...-------:/+/-`  .....`             
-````````........-..............................-.-:oooy- .ody-             `              -/-sy.```........````````...-.-..`..--/:-......            `
-`````````................-......../-/.....-...--.-:sho` /dh/      ````...-....`````        .+-+h:...-----.-.....`` `` ......````.-//+:..`             
-```.````........................../-/....::.``--.-:do  odh-    ``.-----::::::----..````     -/-/h:..--::..:-``````..--``````...----::/+/.``           
-````````.................:.......././``..::.``/--/dh` /dh-   `.-:://+//++++++//:----.````    ::.sdhhs+yo:-yhhhhyyo/-:/.````` ``-..-:::-:+:.           
-````````...........-...../.......././````::.`.s//odo .y+`   `-:+++ooooooooooo+++//::--.```   `./-ds/+sdhhyyddddddhhhhho/:-.```````.-:://::+-    `     
-````.```.........../...../.....:.././````::.`.ssood/ .:+   `./+++oooooooooooooo++//:--..``       yy/ohhhhyhyyyyosssssshhhyo:----```.---::/://`      ` 
-..```````........../`````:````.:.-/./..``::..-ssosd/ +h-   `-/+ooooooo+++oooo++++//:---.``    .  yhshysosyosddddhysyhyhyyhdds-../:``.------::/-       
-:-`````.`````....../`````:.```.:.:/./....::..-/ody/``hh`  `.:+ooooosoossoo+ooo++++/::--.```   :. +hdhyys++o+yhhh--sddyyyhhdhddy+/.``...-....--/:  `.  
-``````````````````./``.``/.```.+//o:+-..-:++os-/d:  -dy  `./+++/////+oooooooooso++//--...``       .hooosoo+/:/oss+ohdyosyhyyhhhdo-.`.....`..-.-/:     
-``````````````````./``:``:....:::/o:+-`.-sooos-/h`  .+/  `.::--..`````.://ooo++:-..`````````       yy/+///+///+//osydhhyhysyyyhhdh:..--..``.--:--:`   
-```````````````:.``/``:`.:.--.::.-:`:..-oyooos.ss        `///:/+//:---..`.--.`.....---..````       +h////:/:::/:://+/shyoymmmyyddhd+.---````..-:.--   
-````````````.``/.``/``:`-:.--.::.-o:+:/+syooos.h+   ``  `-/++//://.--/::.+o+:`---/.`.-....``       .h+:://:::/--/::/:/+yhdmdhhsyhddds//:-````...`.-`  
-````````````:``:```/``:`-:./-.::-+s+syo+sy/...`h/   ``  `-+o++ooooooo+/:/oo++/-::::::--....``   `   ys-::/:--::-::::::/+/+sssyhssyhddo::o````````  :  
-````````````:``:```/``:`-s+ho+ho+ys+syo+s/:.`.`y+   ``  `-/oo+osssssooo/ooo+:/-//++++/:---.`   `    ys:////::::/://///+o+oooyydhyhhyym+..```  `````-- 
-````````````:``:```/``o/ys+ho/ho+ys+syo/-::````so   ``  `:/+oooossssoo+o++++/:::/++++//:-..``  ``   h+-----.------:-://+:/+/+osh++dyodh-...```.`````- 
-``` `  `````:`.:```///h/ys+ho/ho+y+:oy-..--````+h    .  `:+oosssoossyso+ooo+/:-:+++++//:--.`   .   .d+::/:/..------:::++//sso+omyoyysdy+-:--..-..-../`
-``  `  `:`.`:`.:``-yooh/ys+ho/ho+s:`:.```:-`  `-d.   `` `-:+oososyyssoooosyso//::oooo++/:-.`  ``   /h.`.-.--+/:.-:::/+oysyhhhhhmdooyddsy--:--`...:..:.
-/`` .`-`/`/.+`-:.d/yooh/y/.::-/-.::`:-.`./-``. :d:   `` `-:++osssssso+///+oo/://:+ooo++/:-.`  `    yo.-.-...++:::/+yyyhhhhyoshmmhd//sddy//++/////+//+:
-/`o`o`+`+`:`:-:y+d/hssd:o+./:.+/-++-+/:-/::-:--.ss    `  .-/+ooossoo+/-.....```.-:/+oo+/:.``  `   :d/////:-:+s+++oydhhysyshhohmmdmmmdmmddddhhhhhhhddhd
-. / - . :`.`:/os/h:y++-`-:`-.`--`-:`:``` -``... -d-    ` `.-/+ooo+/-.`````````````..-://-.`      :h:--:----.:/s++yyoyossyyhhhmmmmmhddmyoooo//+:-///:::
-.   . .`:.d.++os/h-o``-`.:` .`--`-:`: `` ``` `.  :ososo+- `.-/+++.```````  ```````  `.-..```+sooshs/+/o+/-``:/yyhdyymyhhyddmddydmyyyds---.--.`..--..-`
--```s:d::-d:y+os/+`:  -`.:`   `-oyyo+o/o:/:: `     ````so  `.-::.```````.......````   ```` /h-`-:/ossssss+o/osydhs+shdydyhhhhdddddhs/----...``..-``..`
-d:::d+moh:d:y+o+-  :  -` :    `-:+o:/:.- ``` ` ````````/h`  ``..```..-.--:---...````   `   ys.`.``.oo+ohyyysddys/::///sdoydhdh/oh+:.../-.`````` ````` 
-d-+.h-h-d-d:y/+-`  :  -  :`    -``:`:```  `````````````/d:    ````.----------......`      .hho`. ``.:--+//:yhdo/:/::ohsyhysysyhos...`....`  ``````````
-d-h-h-h-d-o-y`.-`  :  -  :     .``:`:````````````````/ys-``      ``----.````````.`.`      `:oyh+:/:::::-::-/ssy+/+shysoosyo/+yhd:/-.--..`````.````````
-d-h-h-s.d` `/`.-   :     :   `````-`:` ````````````:yy/-``.`      `.-::-```  ```..`       `-//yo`.``---.-...::o//hysssyyyysshhhd++++o++:```````````.``
-d-h-/` `d`  :`.-   : ````:`   ````  ``````````-/+oyy/-......`      ``...```    ``       ```-hhsyo:``.``.++`.-::+/dsossyyssoooyo-.....`````.```````````
-. h-.   +`  : `-```/```  ```.`    `````````.oys++o/-.```...-.`        ``               ````.+h+-/sso/:-hm/``---s+hhyhyy/--osy/.....`````.`````````````
-. :`.   -   :  -.:.+-`://:/:s+oosoo+:``-/oyy+::os:..``` ....--.`                      ```````:sys/`-ohyshdy:::---ddyo+/:---........````.``````````````
-.   `  `:```:  -`::/.`..+shs/:---..:osyys++syyo:.--..`  `:-.----.`                  `````````.+ooyy+o+//ss/+sssshhyosyssyh:......````...``````````````
-   `````-   -  -```:  .ys+-.-/-.``.:-..`.```` `.--..`` ``-//-----..``             ``````````..ohs-++:+/.`.-:-//////..:..-ohs+:.```````````````````````
-`````   -```:`     : -hs-.---/...-:-.``       ....`..` `.///++:-----...````````````.`````` `..-:+o/:-:+/:---:::-++::::++-::/sho````````...```````````.
-    ````:`` :     .:+hs/:/-...``.---````.-`  `.`` ```  `.:+++++/::-----.....```....``..`` ``..    `-//:/+o//+oooh-..-+/.`./++sho+/:.```````.....``````
-````````-   :.:+syys+::-...``````..-.`.``-.   `````  ```.//+osso///:--............:::-````  ``      `..-//:-shs+:.`.-..::-:+ys/:/:/sy:````````````````
-````      -+yhyo/:.....:-```````````` .``-.       ```.--.//://+oo+/:://:--------:/-```````  `        ```...-o+--.``.//+-`.:--/ohhddhyyhy/`````````````
-       `-://-.````````        `                     ``````..``.......`....``````````` ``                ``  ``` ```.---```.-.`.-:::::/:::::.`         
-    `/oooo+:///////`///. ://-`///-  `:///-` `/////`  -///``..```///:`:///```:////-```.:///:`-/// .///`-//: ://`.///```-/+/:-`   `````...```-:``..     
-  `-/dmmhoo/dmmmmmd.mmm/ dmmo`dmmo`+dmmmmy` ommmmms  +mmd` `..``hmms`smmd``-dmmmmd.`/dmmmmh.ommd.ymmd`smmh`ymmhommm`.hmmddmy.  `.::://////---////`````
-.:::-dmmddo`:+mmm+:.mmmmdmmmo`dmmo.mmmy/+.`-mmd/dmm: +mmd`  `.``hmmmdmmmd..hmmsymmy.dmmh/+. ommmmmmd:`smmh`ymmmmmmm`ommy.sys-````.--:/::/:---:///`````
-::-. dmmy++: -mmm- .mmm/`dmmo dmmo`smmmmms.hmmhhhmmd.+mmd+++``.`hmmy.smmd`ommdhhdmm++dmmmmh`ommd.ymmd.smmh ymmhhmmm`-dmmmmmm:`` ``.-///////-.-///-````
--````++++++: .+++. `+++. /++: /++:  ./+o+/:++/`  /++--++++++  .`/++/./+++.++o:-:/+++`./+++/.-+++`-+++-:++/ :++/`/++  `:+oo++. ````.::/::::::::::/::-.`
-```````````                                                   ````````..`....-..`              ``````                   `    `......``....```.---..-::
-</pre></font>
-<!-- IMAGE ENDS HERE -->
-			</td></tr>
-		</tbody></table>
-
-</center>
+    <p>Welcome to zTerminal 0.2</p>
+    <p>A simple terminal simulator for websites.</p>
+<br>
 
 
-</body></html>
+    <ol id="terminalDisp">
+    </ol>
+
+    <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="700a2415021d191e111c301c1f13111c181f0304">[email&#160;protected]</a>:~ <input type='text' id='termInput' value=''></p>
+  </div>
+
+<!-- scripts -->
+<script data-cfasync="false" src="https://www.jqueryscript.net/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://www.jqueryscript.net/demo/Customizable-Terminal-Simulator-jQuery-zTerminal/js/zterm.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html> 
