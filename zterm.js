@@ -165,7 +165,7 @@ var cmd = (cncmd).toLowerCase();
 
 function mehScroll(){
 
- if(document.getElementById('terminal').scrollTop<(document.getElementById('terminal').scrollHeight-document.getElementById('termainal').offsetHeight)){-1
+ if(document.getElementById('terminal').scrollTop<(document.getElementById('terminal').scrollHeight-document.getElementById('terminal').offsetHeight)){-1
        document.getElementById('terminal').scrollTop=document.getElementById('terminal').scrollTop+1
        }
  else {document.getElementById('terminal').scrollTop=0;}
